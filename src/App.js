@@ -10,6 +10,7 @@ function App() {
       image:
         "https://static.vecteezy.com/system/resources/previews/021/000/069/original/cse-letter-logo-design-in-illustration-logo-calligraphy-designs-for-logo-poster-invitation-etc-vector.jpg",
     },
+    /*The image url is temporary. Change it Accoridingly*/
     {
       name: "ECE",
       image:
