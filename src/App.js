@@ -1,23 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/header";
+import Department from "./components/department";
+import Footer from "./components/footer";
 
 function App() {
+  const dept_details = [
+    {
+      name: "CSE",
+      image:
+        "https://static.vecteezy.com/system/resources/previews/021/000/069/original/cse-letter-logo-design-in-illustration-logo-calligraphy-designs-for-logo-poster-invitation-etc-vector.jpg",
+    },
+    {
+      name: "ECE",
+      image:
+        "https://static.vecteezy.com/system/resources/previews/021/000/069/original/cse-letter-logo-design-in-illustration-logo-calligraphy-designs-for-logo-poster-invitation-etc-vector.jpg",
+    },
+    {
+      name: "EEE",
+      image:
+        "https://static.vecteezy.com/system/resources/previews/021/000/069/original/cse-letter-logo-design-in-illustration-logo-calligraphy-designs-for-logo-poster-invitation-etc-vector.jpg",
+    },
+    {
+      name: "Mech",
+      image:
+        "https://static.vecteezy.com/system/resources/previews/021/000/069/original/cse-letter-logo-design-in-illustration-logo-calligraphy-designs-for-logo-poster-invitation-etc-vector.jpg",
+    },
+    {
+      name: "IT",
+      image:
+        "https://static.vecteezy.com/system/resources/previews/021/000/069/original/cse-letter-logo-design-in-illustration-logo-calligraphy-designs-for-logo-poster-invitation-etc-vector.jpg",
+    },
+  ];
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="depts">
+        {dept_details.map((department) => (
+          <Department depart={department} />
+        ))}
+      </div>
+      <Footer />
     </div>
   );
 }
