@@ -9,9 +9,9 @@ const header = () => {
                 <img className="head_img" src={image} alt="Licet-logo" />
             </div>
             <div className="line"></div>
-            <header className="head_text">
-                <h1>TechnoFest 2023</h1>
-            </header>
+            <div className="head_text">
+                TECHZAR 2023
+            </div>
         </div>
     )
 }
