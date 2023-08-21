@@ -1,14 +1,31 @@
-.head_cont{
-    background: linear-gradient(to bottom, rgba(0, 55, 255, 0.7), rgba(0, 188, 212, 0.7));
+.head_cont {
+    background-color: #1a0c4e;
+    height: 100px;
+    width: 100%;
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
-.head_cont h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+.head_text {
+    padding: 25px 0px 0px 458px;
+    font-size: 45px;
     margin: 0%;
-    padding-left: 30px;
-    height:80px;
+    width: 100%;
+    height: 80px;
     display: block;
-    text-align: center;
+}
+
+.head_img {
+    margin-left: 50px;
+    width: 250px;
+    height: auto;
+    animation: fadeInAnimation ease 3s;
+}
+
+.line {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    /* Adjust this value to set the height of the gold line */
+    background-color: #dccaa0;
 }

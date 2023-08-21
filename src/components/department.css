@@ -1,6 +1,6 @@
-.dept{
+.dept {
     padding: 50px;
-    display:inline-block;
+    display: inline-block;
     flex-direction: row;
     border-radius: 8px;
     margin: 10px;
@@ -10,28 +10,32 @@
     transition-duration: 0.3s;
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
 }
-.dept img{
+
+.dept img {
     width: 300px;
     height: 400px;
 }
-.dept:hover{
+
+.dept:hover {
     transform: scale(1.1);
 }
-.dept h2{
+
+.dept h2 {
     margin: 10px;
 }
-.dept button{
-    color: #ccc;
-    background-color: #282c34;
+
+.dept button {
+    color: #dccaa0;
+    background-color: #1a0c4e;
     width: 50%;
     align-items: center;
     margin-left: 77px;
     border-radius: 10px;
     font-size: large;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-shadow:0 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }

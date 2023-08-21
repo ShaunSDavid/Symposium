@@ -1,12 +1,13 @@
 .App {
-  background-color:#00bcd4;
-  color:rgb(0, 255, 255);
-  font-weight: bold;
+  background-color: white;
+  color: black;
+  font-family: storica;
   font-size: larger;
   align-items: center;
 }
-.depts{
+
+.depts {
   text-align: center;
-  padding-left:20px;
+  padding-left: 20px;
   padding-bottom: 10px;
 }
