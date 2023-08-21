@@ -1,11 +1,15 @@
 import React from "react";
 import './head.css';
+import image from "./licet-logo.png";
 
-const header= () =>{
-    return(
-        <div className="head_cont">
-            <img src="https://moodle.licet.ac.in/pluginfile.php/1/theme_moove/logo/1645765546/licet.png" alt="LICET_Logo"/>
-            <header>
+const header = () => {
+    return (
+        <div>
+            <div className="head_cont">
+                <img className="head_img" src={image} alt="Licet-logo" />
+            </div>
+            <div className="line"></div>
+            <header className="head_text">
                 <h1>TechnoFest 2023</h1>
             </header>
         </div>
